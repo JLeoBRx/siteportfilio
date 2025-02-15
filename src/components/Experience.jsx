@@ -158,7 +158,7 @@ export const Experience = (props) => {
         ></group>
       </motion.group>
 
-      {/* SKILLS */}
+      {/* Experiências Imersivas */}
       <motion.group
         position={[
           0,
