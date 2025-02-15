@@ -1,8 +1,5 @@
-![Thumbnail video tutorial](https://github.com/wass08/r3f-portfolio-avatar/assets/6551176/b4a8f0ba-a94d-410f-b222-f2c8a983d562)
 
+![Thumbnail Video Tutorial](https://github.com/wass08/r3f-portfolio-responsive/assets/6551176/bf148f55-e6ba-46c4-b53d-9f93e1d1f99f)
 
-[Video tutorial](https://youtu.be/pGMKIyALcK0)
+[Video tutorial](https://youtube.com/@WawaSensei)
 
-
-### Build your own avatar
-[Ready Player Me](https://readyplayer.me/)
