@@ -213,7 +213,7 @@ export const Experience = (props) => {
           </mesh>
         </Float>
       </motion.group>
-      <Projects />
+      <Projetos />
     </>
   );
 };
