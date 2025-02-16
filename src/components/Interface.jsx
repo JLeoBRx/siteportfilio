@@ -114,8 +114,8 @@ const skills = [
     level: 90,
   },
   {
-    title: "3D Modeling",
-    level: 40,
+    title: "🚀 Meta Quest Apps",
+    level: 100,
   },
 ];
 const languages = [
