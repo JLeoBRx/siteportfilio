@@ -48,9 +48,9 @@ const AboutSection = (props) => {
   return (
     <Section mobileTop>
       <h1 className="text-4xl md:text-6xl font-extrabold leading-snug mt-8 md:mt-0">
-        Oie, sou
+        Hi, I'm
         <br />
-        <span className="">JLeo</span>
+        <span className="bg-white px-1 italic">Wawa Sensei</span>
       </h1>
       <motion.p
         className="text-lg text-gray-600 mt-4"
@@ -67,11 +67,9 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        Criador de Experiências Imersivas
+        I make YouTube videos to help developers
         <br />
-        para Educação, Cultura e Treinamento
-        <br />
-        (XR - VR, AR e MR)
+        learn how to build 3D apps
       </motion.p>
       <motion.button
         onClick={() => setSection(3)}
@@ -90,7 +88,7 @@ const AboutSection = (props) => {
           delay: 2,
         }}
       >
-        Contate-me!
+        Contact me
       </motion.button>
     </Section>
   );
@@ -98,38 +96,38 @@ const AboutSection = (props) => {
 
 const skills = [
   {
-    title: "🕶 XR Development",
-    level: 90,
-  },
-  {
-    title: "📱 AR / VR Apps",
+    title: "Threejs / React Three Fiber",
     level: 80,
   },
   {
-    title: "🎮 Gamification",
+    title: "React / React Native",
     level: 90,
   },
   {
-    title: "📚 Educational XR",
+    title: "Nodejs",
     level: 90,
   },
   {
-    title: "🚀 Meta Quest Apps",
-    level: 100,
+    title: "Typescript",
+    level: 60,
+  },
+  {
+    title: "3D Modeling",
+    level: 40,
   },
 ];
 const languages = [
   {
-    title: "🛠 Unity / Unreal Engine",
+    title: "🇫🇷 French",
+    level: 100,
+  },
+  {
+    title: "🇺🇸 English",
     level: 80,
   },
   {
-    title: "📊 WebXR / Three.js",
-    level: 40,
-  },
-  {
-    title: "🎨 Blender / 3D Modeling",
-    level: 40,
+    title: "🇯🇵 Japanese",
+    level: 20,
   },
 ];
 
@@ -137,7 +135,7 @@ const SkillsSection = () => {
   return (
     <Section>
       <motion.div className="w-full" whileInView={"visible"}>
-        <h2 className="text-3xl md:text-5xl font-bold text-white">Exp. Imersivas</h2>
+        <h2 className="text-3xl md:text-5xl font-bold text-white">Skills</h2>
         <div className="mt-8 space-y-4">
           {skills.map((skill, index) => (
             <div className="w-full md:w-64" key={index}>
@@ -182,7 +180,7 @@ const SkillsSection = () => {
         </div>
         <div>
           <h2 className="text-3xl md:text-5xl font-bold mt-10 text-white">
-            Ferramentas
+            Languages
           </h2>
           <div className="mt-8 space-y-4">
             {languages.map((lng, index) => (

@@ -158,7 +158,7 @@ export const Experience = (props) => {
         ></group>
       </motion.group>
 
-      {/* Experiências Imersivas */}
+      {/* SKILLS */}
       <motion.group
         position={[
           0,
@@ -213,7 +213,7 @@ export const Experience = (props) => {
           </mesh>
         </Float>
       </motion.group>
-      <Projetos />
+      <Projects />
     </>
   );
 };
