@@ -29,7 +29,7 @@ export const LoadingScreen = (props) => {
         >
           JLeo Dev XR
         </div>
-        <div className="opacity-40">Wawa Sensei</div>
+        <div className="opacity-40">JLeo Dev XR</div>
       </div>
     </div>
   );
